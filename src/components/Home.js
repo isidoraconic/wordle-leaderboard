@@ -6,7 +6,7 @@ export default class Home extends React.Component {
     return (
         <div className="home">
           <h1>
-            Welcome to the Hopewell Wordle Leaderboard
+            Hopewell Wordle Leaderboard
           </h1>
           <div id="home-text">
             Please select one of the options from the menu above to get started. :)

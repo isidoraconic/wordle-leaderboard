@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'sometimes-times-regular';
+  src: url('../fonts/sometimes-times-font-regular.ttf')
+}
+
+@font-face {
+  font-family: 'sometimes-times-bold';
+  src: url('../fonts/sometimes-times-font-bold.ttf')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+h1 {
+  font-family: 'sometimes-times-bold';
+  text-align: center;
+  font-size: 60px;
+  color: #880044;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ECEBE4;
+}

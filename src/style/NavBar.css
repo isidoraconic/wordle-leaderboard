@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar-container {
+  margin: 20px;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #ECEBE4;
+  border-radius: 10px;
+  border-color: #041B15;
+}
+
+.navbar button {
+  margin: 5px;
+  background-color: #5E807F;
+  color: #ECEBE4;
+  font-size: 15px;
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  border-style: solid;
+}
+
+.navbar button:hover {
+  transform: scale(1.15);
+}
+

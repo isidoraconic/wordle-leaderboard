@@ -7,8 +7,8 @@ export default class NavBar extends React.Component {
     return (
         <div className="navbar">
           <div id="navbar-container">
-            <NavLink to="/" id="nav-home"><button>Home</button></NavLink>
-            <NavLink to="/leaderboard" id="nav-leaderboard"><button>Leaderboard!</button></NavLink>
+            <NavLink to="/" id="nav-home" className="button-text"><button>Home</button></NavLink>
+            <NavLink to="/leaderboard" id="nav-leaderboard" className="button-text"><button>Leaderboard!</button></NavLink>
           </div>
         </div>
     )

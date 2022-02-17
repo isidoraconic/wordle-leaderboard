@@ -1,5 +1,4 @@
 import React from 'react';
-import './style/App.css';
 import Leaderboard from './components/Leaderboard'
 import Home from './components/Home'
 import NavBar from './components/NavBar';
